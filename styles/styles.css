@@ -2,12 +2,10 @@ body{
     background-image: url("./resources/background/background.svg");
     background-color:#25072e;
 }
-
 .page-logo{
     font-family: "OpenSans","Lucida Console", monospace;
     font-size: 28px;
 }
-
 .page-header {
     border-style: dotted;                            
     position: fixed;
@@ -15,24 +13,42 @@ body{
     top: 2%;
     left: 40px;      
 }
-
 .page-footer {
     position: fixed;
-    bottom: 1%;
-    
+    bottom: 1%;  
 }
-
 .page-content {
-    padding-left: 350px; 
+    margin-left: 250px; 
     
 }
-
+.page-content-section{
+    padding: 30px 100px 20px 0px; 
+    min-height: 100vh;   
+ }
+.page-content-section__header{
+    text-align: right;
+    color:#ec008c;    
+    padding-bottom: 40px;
+}
 .page-navi__item {
     left: 2%;
 }
-
 .band-members__item{
     display: inline-block;
+}
+.band-members{
+    text-align: center;
+}
+.about-section{
+
+}
+.video-section{
+    text-align: right;
+    
+}
+.about-section__image{
+   float: right;
+   clear: both;
 }
 .about-section__text{
     text-align: left;
@@ -43,23 +59,11 @@ body{
     text-transform: uppercase;
     font-weight: 900;
 }
-#sections{
-    height: 101%;
-}
-
-.page-content-section{
-      box-sizing: border-box;
-   height: 100vh;
-
-   
-
-   
-}
-
 ul {
     padding: 0 0 0 10px;
     list-style-type: none;
 }
 h2 {
     font-family: "OpenSans","Lucida Console", monospace;
+    letter-spacing: 3.8px;
 }
