@@ -1,0 +1,34 @@
+body{
+    background-image: url("./resources/background/background.svg");
+}
+.page-content {
+    padding-left: 350px; 
+    
+}
+.page-header {
+    border-style: dotted;                            
+    position: fixed;
+    text-align: left;
+    top: 2%;
+    left: 40px;      
+    
+
+}
+.page-navi__item {
+    left: 2%;
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 1%;
+    
+}
+.band-members__item{
+    display: inline-block;
+}
+
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
