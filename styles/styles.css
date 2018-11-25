@@ -1,104 +1,194 @@
-body{
-    background-image: url("./resources/background/background.svg");
-    background-color:#25072e;
+/*
+REST
+*/
+{
+    box-sizing: border-box
+;
 }
 
-.page-logo{
-    font-family: "OpenSans","Lucida Console", monospace;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #25072e url("../resources/background/background.svg") no-repeat center center fixed;
+    --border-width: 3px;
+    background-size: cover;
+}
+
+div, img, iframe {
+    border-style: solid;
+    border-color: #ec008c;
+    border-width: 0px;
+}
+
+.page-content {
+    min-width: 800px;
+}
+
+.page-logo {
+    font-family: "OpenSans", "Lucida Console", monospace;
     font-size: 28px;
 }
 
-.page-header {                        
+.page-header {
     position: fixed;
     text-align: left;
     top: 2%;
-    left: 40px;      
+    left: 40px;
 }
 
 .page-footer {
     position: fixed;
-    bottom: 1%;  
+    bottom: 1%;
 }
 
 .page-content {
-    margin-left: 250px; 
-    
+    margin-left: 200px;
+
 }
 
-.page-content-section{
-    padding: 30px 100px 20px 0px; 
-    min-height: 100vh;   
+.page-content-section {
+    padding: 30px 100px 20px 0px;
+    min-height: 100vh;
 }
 
-.page-content-section__header{
+.page-content-section__header {
     text-align: right;
-    color:#ec008c;    
+    color: #ec008c;
     padding-bottom: 40px;
 }
 
-.band-members__item{
+.page-navi {
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+    border-color: #ec008c;
+}
+
+.page-navi__item {
+    padding-top: 10px;
+}
+
+.band-members__item {
     display: inline-block;
 }
 
-.band-members{
+.band-members {
     text-align: center;
 }
 
-.video-section{
+.video-section {
     text-align: right;
-    
 }
 
-.about-section__image{
-   float: right;
-   clear: both;
+.video-section__item {
+    border-width: var(--border-width) 0px 0px 0px;
 }
 
-.about-section__text{
+
+.about-section {
+    border: solid 3px black;
+}
+
+.about-section__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+
+.about-section__text {
+    background-color: #25072e;
+    position: relative;
+    top: 450px;
+    right: 1050px;
+    max-width: 300px;
+    border-width: 0px 0px var(--border-width) 0px;
     text-align: left;
-    padding: 20px ;
+    padding: 20px;
+}
+
+.about-section__image {
+    border-width: var(--border-width) 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-end;
+    flex-wrap: wrap;
 
 }
 
-.about-section__text-header{
+.about-section__text-header {
     text-transform: uppercase;
     font-weight: 900;
 }
 
-.concerts article{
+.concerts article {
     display: inline-block;
     padding: 20px;
- }
+}
 
-.concerts__image{
-    width: 380px;
+.concerts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+
+.concerts__image {
+    border-width: 0px 0px var(--border-width) 0px;
+    width: 550px;
     height: auto;
 }
 
-.contact-section__item{
+.contact-section__item {
     padding-top: 190px;
     width: 50%;
     margin: 0 auto;
 }
 
-.gallery li{
+.gallery li {
     display: inline-block;
     padding: 20px;
+
 }
 
-.gallery__image{
+.photo-section__item ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-direction: row;
+
+}
+
+.gallery__image {
+    border-width: var(--border-width) 0px 0px 0px;
     width: 320px;
     height: auto;
 }
 
-.white-text{
-   color:#ccc8ff ;
+.white-text {
+    color: #ccc8ff;
 }
 
 a {
     text-decoration: none;
     color: #ec008c;
-    font-family: "OpenSans","Lucida Console", monospace;
+    font-family: "OpenSans", "Lucida Console", monospace;
     letter-spacing: 3.8px;
 }
 
@@ -108,6 +198,7 @@ ul {
 }
 
 h2 {
-    font-family: "OpenSans","Lucida Console", monospace;
+    font-family: "OpenSans", "Lucida Console", monospace;
     letter-spacing: 3.8px;
+    line-height: 1.6;
 }
