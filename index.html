@@ -38,30 +38,34 @@
 <main id="sections" class="page-content">
     <section id="section-home" class="page-content-section home-section">
         <h2 class="page-content-section__header">HOME</h2>
-        <ul class="band-members white-text">
-            <li class="band-members__item">
-                <img class="band-members__image" src="./resources/band-members/band-member01.png" alt="Band member one">
-                <p class="band-members__name">Kamil Zgondek</p>
-                <p class="band-members__role">Keyboard</p>
-            </li>
-            <li class="band-members__item">
-                <img class="band-members__image" src="./resources/band-members/band-member02.png" alt="Band member two">
-                <p class="band-members__name">Łukasz Furman</p>
-                <p class="band-members__role">Vocals</p>
-            </li>
-            <li class="band-members__item">
-                <img class="band-members__image" src="./resources/band-members/band-member04.png"
-                     alt="Band member tree">
-                <p class="band-members__name">Kamil Majewski</p>
-                <p class="band-members__role">Drums</p>
-            </li>
-            <li class="band-members__item">
-                <img class="band-members__image" src="./resources/band-members/band-member03.png"
-                     alt="Band member four">
-                <p class="band-members__name">Daniel Cajzer</p>
-                <p class="band-members__role"> Bass Guitar</p>
-            </li>
-        </ul>
+        <div class="band-members__container">
+            <ul class="band-members white-text">
+                <li class="band-members__item">
+                    <img class="band-members__image" src="./resources/band-members/band-member01.png"
+                         alt="Band member one">
+                    <p class="band-members__name">Kamil Zgondek</p>
+                    <p class="band-members__role">Keyboard</p>
+                </li>
+                <li class="band-members__item">
+                    <img class="band-members__image" src="./resources/band-members/band-member02.png"
+                         alt="Band member two">
+                    <p class="band-members__name">Łukasz Furman</p>
+                    <p class="band-members__role">Vocals</p>
+                </li>
+                <li class="band-members__item">
+                    <img class="band-members__image" src="./resources/band-members/band-member04.png"
+                         alt="Band member tree">
+                    <p class="band-members__name">Kamil Majewski</p>
+                    <p class="band-members__role">Drums</p>
+                </li>
+                <li class="band-members__item">
+                    <img class="band-members__image" src="./resources/band-members/band-member03.png"
+                         alt="Band member four">
+                    <p class="band-members__name">Daniel Cajzer</p>
+                    <p class="band-members__role"> Bass Guitar</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <section id="section-about" class="page-content-section about-section">
@@ -164,12 +168,12 @@
             </address>
             <form class="form white-text" action="" method="GET">
                 <div class="form__item">
-                    <label  for="email" >e-mail </br></label>
+                    <label for="email">e-mail </br></label>
                     <input class="form-label__input" id="email" value="&#9; e-mail"/>
                 </div>
                 <div class="form__item">
-                    <label  for="topic" >topic </br></label>
-                    <input class="form-label__input" id="topic" value="&#9; topic" />
+                    <label for="topic">topic </br></label>
+                    <input class="form-label__input" id="topic" value="&#9; topic"/>
                 </div>
                 <div>
                     <button class="button-submit" type="submit">CONTACT US!</button>
