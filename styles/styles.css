@@ -35,7 +35,7 @@ div, img, iframe {
 
 .page-content {
     min-width: 800px;
-    margin-left: 200px;
+    margin-left: 280px;
 }
 
 .page-logo {
@@ -61,6 +61,7 @@ div, img, iframe {
     align-items: flex-end;
     padding: 30px 100px 20px 0px;
     min-height: 100vh;
+
 }
 
 .page-content-section__header {
@@ -91,16 +92,9 @@ div, img, iframe {
     display: inline-block;
 }
 
-.video-section {
-    text-align: right;
-}
-
-.video-section__item {
-    border-width: var(--border-width) 0px 0px 0px;
-}
-
 .about-section {
     border: solid 3px black;
+    padding-left: 1050px;
 }
 
 .about-section__item {
@@ -152,6 +146,15 @@ div, img, iframe {
     height: auto;
 }
 
+.video-section {
+    text-align: right;
+    padding-left: 850px;
+}
+
+.video-section__item {
+    border-width: var(--border-width) 0px 0px 0px;
+}
+
 .contact-section__item {
     position: relative;
     padding-top: 190px;
@@ -188,6 +191,7 @@ div, img, iframe {
 
 .white-text {
     color: #ccc8ff;
+
 }
 
 .media-links__item {
