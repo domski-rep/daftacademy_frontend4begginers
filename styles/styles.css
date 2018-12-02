@@ -210,13 +210,17 @@ div, img, iframe {
     }
 
     .band-members__item{
-        width: 30%;
-        height: auto;
 
     }
     .band-members__image{
-        width: 300px;
-    }r
+
+        width: 200%;
+        height: auto;
+
+        padding-right: 120px;
+    }
+
+
     .page-content-section {
         display: flex;
         flex-direction: column;
@@ -265,7 +269,24 @@ div, img, iframe {
 
     }
 
+    .gallery__item {
+
+
+        padding-right:20%;
+        padding-bottom: 20px;
+        border-top: solid var(--design-color) 2px;
+
+
+    }
+
+    .gallery__image {
+        width: 60vw;
+        height: auto;
+        padding-right: 30%;
+    }
+
     .contact__image {
+
         padding-right: 100px;
     }
 
