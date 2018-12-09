@@ -643,21 +643,22 @@ button's & labels design and animation*
     transition-property: opacity;
 }
 
-.button-media:hover {
-    opacity: 0.9;
-}
-
-.button-media:active {
-    opacity: 1;
-}
-
-.button-media:focus {
-    opacity: 1;
-}
-
 .button-media:visited {
     opacity: 0.6;
 }
+
+.button-media:hover {
+opacity: 0.9;
+}
+
+.button-media:active {
+opacity: 1;
+}
+
+.button-media:focus {
+opacity: 1;
+}
+
 
 .button-media:disabled {
     opacity: 0.2;
