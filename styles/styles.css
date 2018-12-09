@@ -668,31 +668,35 @@ button's & labels design and animation*
     transition-property: opacity;
     opacity: 0.6;
     padding-left: 5px;
-    color:#ec008c;
+    color: #ec008c;
     letter-spacing: 6.7px;
 }
 
-navi-link:active{
-    letter-spacing: 6.5px;
+.navi-link:link{
+
+}
+
+.navi-link:visited {
     opacity: 1;
-}
-.navi-link:visited{
-opacity: 1;
 
 }
-
 
 .navi-link:hover {
 opacity: 0.8;
 }
 
-.navi-link:focus {
+
+navi-link:active {
+letter-spacing: 6.5px;
 opacity: 1;
 }
 
 .navi-link:disabled {
-    opacity: 0.2;
+opacity: 0.2;
 
+}
+.navi-link:focus {
+    opacity: 1;
 }
 
 /*===========================================================================
@@ -701,7 +705,7 @@ opacity: 1;
 
 a {
     text-decoration: none;
-   /* color: #ec008c;*/
+    /* color: #ec008c;*/
     font-family: "OpenSans", "Lucida Console", monospace;
     letter-spacing: 3.8px;
 }
